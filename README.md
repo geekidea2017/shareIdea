@@ -1,7 +1,7 @@
 # shareIdea
-Share Idea Frontend branch created.
+Share Idea javaBackend branch created.
 
-This is the frontend branch..
+This is the javaBackend branch..
 
 Guys lets start with this new idea.:) 
 
