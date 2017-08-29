@@ -1,5 +1,7 @@
 # shareIdea
-Share Idea application  need to create.
+Share Idea Frontend branch created.
+
+This is the frontend branch..
 
 Guys lets start with this new idea.:) 
 
