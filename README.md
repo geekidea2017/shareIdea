@@ -1,6 +1,9 @@
 # shareIdea
 Share Idea application  
 
+NOTE : ShareIdea front end and back end code committed 
+
+
 Here in master Branch all application will available.
 Please download master branch. Here javacode,frontend and Nodejs Code will available.
 
@@ -19,3 +22,7 @@ Run application:
 		https://otto.takari.io/content/sites/m2e.extras/m2eclipse-mavenarchiver/0.17.2/N/LATEST/
 		b) Select listed check box and click on next
 		c) after download and install restart eclipse.all done
+
+		
+		
+		
