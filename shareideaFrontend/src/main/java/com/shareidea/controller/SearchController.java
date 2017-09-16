@@ -8,11 +8,13 @@ import com.shareidea.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.Errors;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -49,6 +51,10 @@ public class SearchController {
 
         return ResponseEntity.ok(result);
 
+    }
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello message to controller";
     }
 
 }
