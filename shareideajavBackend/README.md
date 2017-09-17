@@ -19,5 +19,7 @@
 	d. db.test.insert({name:"geek"})
 	c. db.test.find()  
 
+https://stackoverflow.com/questions/2404742/how-to-install-mongodb-on-windows
+
 
 
