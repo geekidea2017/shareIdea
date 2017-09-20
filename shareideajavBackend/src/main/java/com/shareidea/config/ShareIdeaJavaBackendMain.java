@@ -6,11 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-public class MyApplication {
+@SpringBootApplication
+public class ShareIdeaJavaBackendMain {
 	 
     public static void main(String[] args) {
         //System.setProperty("database.properties", "my-app");
-        SpringApplication.run(MyApplication.class, args);
+        SpringApplication.run(ShareIdeaJavaBackendMain.class, args);
     }
 
 }
