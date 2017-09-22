@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;  
 @Configuration 
 @ComponentScan("com.shareidea") 
-@EnableWebMvc   
+//@EnableWebMvc   
 public class AppConfig extends WebMvcConfigurerAdapter {  
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {

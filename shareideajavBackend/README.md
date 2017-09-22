@@ -22,4 +22,10 @@
 https://stackoverflow.com/questions/2404742/how-to-install-mongodb-on-windows
 
 
+# Swagger 2 UI Integrated 
+_____________________________
+
+Swagger UI integrated In the application using Swagger2. Its integrated in SwaggerConfig.java file. For swagger Do not use @EnableWebMvc  Annotation in your application...
+
+
 
