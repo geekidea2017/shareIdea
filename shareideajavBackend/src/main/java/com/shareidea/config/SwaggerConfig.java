@@ -21,7 +21,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket postsApi() {
-		return new Docket(DocumentationType.SWAGGER_2).select().apis(
+		return new Docket(DocumentationType.SWAGGER_2).groupName("ACL_Mobile").apiInfo(apiInfo()).select().apis(
 		           RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();
 	}
 
@@ -30,11 +30,11 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("JavaInUse API")
-				.description("JavaInUse API reference for developers")
-				.termsOfServiceUrl("http://testdata.co")
-				.contact("XXX@gmail.com").license("JavaInUse License")
-				.licenseUrl("XXX@gmail.com").version("1.0").build();
+		return new ApiInfoBuilder().title("Share!dea API")
+				.description("Share!dea API reference for developers")
+				.termsOfServiceUrl("http://share!dea.com")
+				.contact("geekideas2017@gmail.com").license("Share!dea License")
+				.licenseUrl("geekideas2017@gmail.com").version("1.0").build();
 	}
 
 }
