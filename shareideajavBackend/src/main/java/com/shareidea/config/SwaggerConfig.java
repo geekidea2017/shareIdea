@@ -21,7 +21,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket postsApi() {
-		return new Docket(DocumentationType.SWAGGER_2).groupName("ACL_Mobile").apiInfo(apiInfo()).select().apis(
+		return new Docket(DocumentationType.SWAGGER_2).groupName("Geek!deas").apiInfo(apiInfo()).select().apis(
 		           RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();
 	}
 
