@@ -3,7 +3,7 @@
 # Mongo DB installation steps and run in command prompt
 ---------------------------------------------------------------------
 
-1. Downlaod Mongodb msi or Zip file from mongodb web site
+1. Download Mongodb msi or Zip file from mongodb web site
 2. open CMD in windows as administrator to the c:\program file\mongodb..\3.4\bin folder
 3. Create a directory d:\data as per available directory
 4. Lets run the below command  mongod --dbpath d:\data
@@ -27,7 +27,7 @@ _____________________________
 
 Swagger UI integrated In the application using Swagger2. Its integrated in SwaggerConfig.java f ile. For swagger Do not use @EnableWebMvc  Annotation in your application... URL to check swagger -- http://localhost:8083/swagger-ui.html --
 
-Utility Backend
+Utility Backend  
 
 
 
