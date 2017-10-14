@@ -103,7 +103,7 @@ img {
 
 .welcome-card > .mdl-card__title {
   color: #fff;
-  height: 290px;
+  height: 100px;
   background: url("../img/cover.jpg") center/cover;
 }
 
