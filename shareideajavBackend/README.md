@@ -5,6 +5,7 @@
 
 1. Downlaod Mongodb msi or Zip file from mongodb web site
 2. open CMD in windows as administrator to the c:\program file\mongodb..\3.4\bin folder
+2.1. c:\start mongo.exe -> mongod --dbpath E:\GeekIdeas\shareIdea_mongo\data
 3. Create a directory d:\data as per available directory
 4. Lets run the below command  mongod --dbpath d:\data
 5. open new command propmt [sufficent privellages (admin)]
