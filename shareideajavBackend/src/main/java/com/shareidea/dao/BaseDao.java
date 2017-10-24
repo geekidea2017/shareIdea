@@ -4,13 +4,12 @@ import java.util.List;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-
-import com.shareidea.entity.BaseEntity;
+import com.shareidea.entity.Shareidea;
 
 @Repository
-public interface BaseDao extends MongoRepository<BaseEntity, String> {
+public interface BaseDao extends MongoRepository<Shareidea, String> {
 	
-	List<BaseEntity> findAll();
+	//List<Shareidea> findAll();
 /*	List<BaseEntity> findByIdeaName(String ideaName);
 
 	List<BaseEntity> findByIdea(String idea);

@@ -12,7 +12,7 @@ import com.shareidea.service.MyAppBasicAuthenticationEntryPoint;
 import com.shareidea.service.MyAppUserDetailsService;
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(securedEnabled=true)
+@EnableGlobalMethodSecurity(securedEnabled=false)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private MyAppUserDetailsService myAppUserDetailsService;	
@@ -20,11 +20,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	private MyAppBasicAuthenticationEntryPoint myAppBasicAuthenticationEntryPoint;
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		/*http.csrf().disable()
+		http.csrf().disable()
 		    .authorizeRequests()
 		  	.antMatchers("/user/**").hasAnyRole("ADMIN","USER")
 			.and().httpBasic().realmName("MY APP REALM")
-			.authenticationEntryPoint(myAppBasicAuthenticationEntryPoint);*/
+			.authenticationEntryPoint(myAppBasicAuthenticationEntryPoint);
 	} 
     @Autowired
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {

@@ -1,4 +1,4 @@
-package com.shareidea.entity;
+/*package com.shareidea.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
@@ -44,3 +44,4 @@ public class BaseEntity {
 	}
 
 }
+*/
